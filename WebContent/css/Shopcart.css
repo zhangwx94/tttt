@@ -1,0 +1,78 @@
+
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.3)),url(../img/shoppingcart.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 93vh;
+    background-attachment: fixed;
+
+}
+.table {
+	background: rgba(0, 0, 0, 0.5);
+	position:relative;
+	margin:15vh auto;
+	width:150vh;
+	padding-bottom:5vh;
+}
+
+.tablehead {
+	background: rgba(252, 153, 68, 0.83);
+	position:absolote;
+	margin-top:0px;
+   	height:2vh;
+   	width:100%;
+}
+
+.tablebody {
+	position:absolote;
+	margin:-1vh auto;
+	width:125vh;
+}
+
+.tdMovie{
+	width:50vh;
+}
+
+.tdQuantity{
+	margin-left:2vh;
+	margin-right:10vh;
+	width:10vh;
+	background-color:transparent;
+	text-align: center;
+	border:2px solid rgba(0, 0, 0, 0.4);
+}
+
+.button {
+	background: rgba(252, 153, 68, 0.83);
+	border: none;
+	border-radius:1vh;
+	padding:1vh;
+	margin:1vh;
+	color:white;
+}
+
+.button1 {
+	background: transparent;
+	border:2px solid rgba(225, 255, 255, 0.4);
+	border-radius:4vh;
+	padding:0 1vh;
+	margin:1vh;
+	color:white;
+}
+
+.button1:hover {
+    background: rgba(252, 153, 68, 0.83);
+}
+.checkout {
+	float:left;
+	width:50vh;
+}
+
+.clear{
+	float:left;
+}
+
+.check {
+	width:70vh;
+	margin:10vh auto 5vh;
+}

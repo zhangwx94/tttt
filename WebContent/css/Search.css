@@ -1,0 +1,48 @@
+.table {
+	background: rgba(0, 0, 0, 0.5);
+	position:relative;
+	margin-top:8vh;
+	margin-left:65%;
+	height:75vh;
+   	width:50vh;
+}
+
+.tablehead {
+	background: rgba(252, 153, 68, 0.83);
+	position:absolote;
+	margin-top:0px;
+   	height:2vh;
+   	width:50vh;
+}
+
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.3)),url(../img/advance.png);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    background-attachment: fixed;
+
+}
+.tablebody {
+	position:absolote;
+	margin:-1vh 3vh;
+}
+
+.box {
+	background: transparent;
+	border:1px solid rgba(255, 255, 255, 0.5);
+	border-radius:1vh;
+	width:44vh;
+}
+
+.button {
+	background: rgba(252, 153, 68, 0.83);
+	border: none;
+	border-radius:1vh;
+	height:5vh;
+   	width:44vh;
+}
+
+header {
+	  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.3)),url(../img/main.jpg);
+}

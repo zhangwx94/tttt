@@ -1,0 +1,186 @@
+* {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 400;
+}
+
+header {
+    background-image: linear-gradient(rgba(160, 160, 160, 0.5),rgba(0, 0, 0, 0.3)),url(../img/movielist.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    background-attachment:fixed;
+}
+
+.row {
+    max-width: 1140px;
+   margin:0 auto;
+}
+
+.rowww {
+    max-width: 1200px;
+    margin:0 auto;
+
+}
+
+
+
+.navall {
+    
+    list-style: none;
+    margin-top: 50px;
+}
+.navall li {
+    
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+
+.left-nav {
+    float: left;   
+    margin-top: -3vh;
+}
+
+.left-nav a {
+  
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.right-nav {
+    float: right;
+}
+
+.navall li a:link,
+.navall li a:visited {
+    padding: 6px 0; 
+    color: rgba(255, 255, 255, 0.94);
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.right-nav li a:hover,
+.right-nav li a:active {
+    border-bottom: 2px solid rgba(8, 38, 106, 0.49);;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(247, 247, 247, 0.61);
+    color: #6a6a6a;
+ 
+}
+
+.iconsmall {
+    width: 15px;
+    display: inline-block;
+    color: #000000;
+    font-size: 130%;
+     margin-right: 10px;
+   
+}
+
+.row p {
+   font-size: 20px;
+    color: #fffbf4;
+      color: black;
+}
+
+
+.seek {
+    margin-left: 10px;
+    color: black;
+}
+
+.seek:hover,
+.seek:active{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.movieslist {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+   
+}
+.movieslist p{
+   color: black;
+   
+}
+
+.space{
+	color:white;
+      margin-top: 20px;
+}
+
+.message th{
+    color: #000;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.row table:last-child {
+    margin-left: 35%;
+}
+
+table a{
+    margin-left: 10px;
+    color: black;
+    font-weight: 500;
+  
+}
+table a:hover,
+table a:active{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0.69);
+    color: #4d4d4d;
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 20px;
+    border: 0;
+}
+button:hover,
+button:active {
+    color: white;
+    background-color: rgba(8, 38, 106, 0.49);
+    transition: 0.2s;
+}
+
+.add_button {
+   width: 60px;
+    height: 70px;
+    line-height: 100%;
+}
+
+footer {
+    background-color: #000000;
+    padding: 8px;
+}
+.copyright {
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #b4b4b4;
+    text-align: center;
+}
+
+.cursive-font{
+	font-family: cursive;
+	text-align: center;
+	padding-bottom:1vh;
+}

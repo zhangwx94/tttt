@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Like-predicate</title>
+</head>
+<body>
+SELECT stars.id, stars.first_name, stars.last_name, stars.dob, stars.photo_url, movies.id, movies.title, movies.year, movies.director, movies.banner_url, movies.trailer_url genres.id, genres.name FROM movies INNER JOIN stars_in_movies ON stars_in_movies.movie_id = movies.id INNER JOIN stars ON stars_in_movies.star_id = stars.id INNER JOIN genres_in_movies ON genres_in_movies.movie_id = movies.id INNER JOIN genres ON genres.id = genres_in_movies.genre_id WHERE 1=1 AND movies.id = id AND movies.title LIKE '%XX%' AND movies.director Like '%XX%' AND movies.director LIKE '%XX%' stars.first_name LIKE '%XX%' AND stars.last_name LIKE '%XX%';
+</html>

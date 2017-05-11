@@ -1,0 +1,157 @@
+* {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    
+}
+  
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)),url(../img/movielist.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    background-attachment: fixed;
+}
+
+
+.row {
+    max-width: 1140px;
+   margin:0 auto;
+
+}
+
+.col1 {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.5%;
+	width: 30%; 
+
+}
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.5%;
+	width: 45%; 
+
+}
+
+
+
+.navall {
+    list-style: none;
+    margin-top: 50px;
+}
+.navall li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+
+.left-nav {
+    float: left;   
+    margin-top: -3vh
+}
+
+.left-nav a {
+    font-size: 40px;
+    font-weight: 600;
+   
+    
+}
+
+.right-nav {
+    float: right;
+}
+
+.navall li a:link,
+.navall li a:visited {
+    padding: 6px 0; 
+    color: rgba(255, 255, 255, 0.94);
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.right-nav li a:hover,
+.right-nav li a:active {
+    border-bottom: 2px solid rgba(252, 153, 68, 0.83);
+}
+
+    
+
+
+h3 {
+    text-align: center;
+    font-size: 200%;
+    color: rgba(0, 250, 0, 0.54);
+    
+}
+
+h4 {
+    font-size: 110%;
+    font-weight: 400;
+   padding: 2px;
+    color: #382c2c;
+    text-align: left;
+ 
+}
+
+form {
+    width: 500px;
+    margin-top: 15px;
+}
+
+legend {
+    font-weight: 500;
+    font-size: 130%;
+    color: rgba(38, 49, 95, 0.78);
+}
+
+
+.content {
+    text-align: center;
+
+}
+
+input[type=text] {
+    background-color: rgba(255, 255, 255, 0.67);
+      margin-left: 100;
+       margin-top: 10px;
+      color: black;
+    border-radius: 5px;
+    
+}
+
+input[type=submit] {
+    background-color: #fff;
+    color: #ff875a;
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+}
+
+input[type=submit]:hover,
+input[type=submit]:active { 
+    background-color: #ff875a;
+    color: white;
+    border: 0;
+}
+
+footer {
+ 
+    background-color: #000000;
+    padding: 8px;
+}
+.copyright {
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #b4b4b4;
+    text-align: center;
+}
